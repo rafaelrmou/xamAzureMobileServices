@@ -21,6 +21,7 @@ namespace xamAzureMobileServices.WinPhone
 
             global::Xamarin.Forms.Forms.Init();
 
+
             LoadApplication(new xamAzureMobileServices.App());
         }
     }

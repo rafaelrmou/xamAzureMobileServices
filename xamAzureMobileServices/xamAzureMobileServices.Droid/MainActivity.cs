@@ -22,6 +22,8 @@ namespace xamAzureMobileServices.Droid
             //Azure
             CurrentPlatform.Init();
 
+            MobileServiceClient Client = new MobileServiceClient("","");
+
             LoadApplication(new App());
         }
     }
