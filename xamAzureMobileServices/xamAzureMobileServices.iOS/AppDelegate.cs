@@ -5,6 +5,9 @@ using System.Linq;
 using Foundation;
 using UIKit;
 
+using Microsoft.WindowsAzure.MobileServices;
+
+
 namespace xamAzureMobileServices.iOS
 {
     // The UIApplicationDelegate for the application. This class is responsible for launching the 
@@ -25,6 +28,7 @@ namespace xamAzureMobileServices.iOS
             global::Xamarin.Forms.Forms.Init();
             LoadApplication(new App());
 
+            CurrentPlatform.Init();
             return base.FinishedLaunching(app, options);
         }
     }

@@ -6,6 +6,7 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
+using Microsoft.WindowsAzure.MobileServices;
 
 namespace xamAzureMobileServices.Droid
 {
@@ -17,6 +18,10 @@ namespace xamAzureMobileServices.Droid
             base.OnCreate(bundle);
 
             global::Xamarin.Forms.Forms.Init(this, bundle);
+
+            //Azure
+            CurrentPlatform.Init();
+
             LoadApplication(new App());
         }
     }
