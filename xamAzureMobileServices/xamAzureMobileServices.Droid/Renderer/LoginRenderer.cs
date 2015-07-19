@@ -19,6 +19,8 @@ namespace xamAzureMobileServices.Droid.Renderer
         protected override void OnElementChanged(ElementChangedEventArgs<Xamarin.Forms.Page> e)
         {
                 base.OnElementChanged(e);
+
+            
         }
 
     }
